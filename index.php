@@ -14,6 +14,10 @@
 	</script>
 	<script type="text/javascript" src="scripts/script.js">
 	</script>
+	<script type="text/javascript" src="scripts/jquery.js">
+	</script>
+	<script type="text/javascript" src="scripts/menuhover.js">
+	</script>
 	<!--[if IE]>
 		<script type="text/javascript" src="/scripts/html5.js"></script>
 	<![endif]-->
@@ -46,12 +50,15 @@
 		<header class="cover">
 			<section class="top cover">
 				<nav class="main-menu w19 right">
-					<ul>
-						<li><a href="#">صفحه اصلی</a></li>
+					<ul class="lavaLamp">
+						<li class="current_page_item"><a href="#">صفحه اصلی</a></li>
 						<li><a href="#">درباره ما</a></li>
 						<li><a href="#">مقالات</a></li>
 						<li><a href="#">فروش اسلاید</a></li>
 						<li><a href="#">ارتباط با ما</a></li>
+						<li class="back" style="right:5px; width:105px; display:block; overflow:hidden;">
+							<div class="imgleft"></div>
+						</li>
 					</ul>
 				</nav>
 				<section class="logo mr20">
