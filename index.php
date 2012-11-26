@@ -45,7 +45,18 @@
 	<section class="container">
 		<header class="cover">
 			<section class="top cover">
-				<a href="#" title="Agriculture" class="logo"></a>
+				<nav class="main-menu w19 right">
+					<ul>
+						<li><a href="#">صفحه اصلی</a></li>
+						<li><a href="#">درباره ما</a></li>
+						<li><a href="#">مقالات</a></li>
+						<li><a href="#">فروش اسلاید</a></li>
+						<li><a href="#">ارتباط با ما</a></li>
+					</ul>
+				</nav>
+				<section class="logo mr20">
+					<a href="./index.php" title="Agriculture" class="logo"></a>
+				</section>
 			</section>
 
 			<section class="text">
