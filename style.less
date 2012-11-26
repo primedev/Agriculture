@@ -1,6 +1,6 @@
+@green-color : #73BD00;
 ::-webkit-scrollbar {
-    width: 16px;
-    
+    width: 16px; 
 }
  
 ::-webkit-scrollbar-track {
@@ -40,4 +40,29 @@ div#loading img {
 
 body.preload div#loading ,div#loading img {
 	opacity: 1;
+}
+
+body{
+	a{
+		text-decoration: none;
+	}
+	section.container{
+
+		section.content{
+			min-height: 600px;
+			background: url('./images/cont_px2cols.gif') 0 0 repeat-y;
+		}
+		footer{
+			width: 902px;
+			height: 23px;
+			padding: 20px 50px;
+			color: #413F3E;
+			background: url('./images/footer.gif') 0 0 no-repeat;
+			font: bold 15px/23px "Trebuchet MS", Arial;
+
+			a{
+				color: @green-color;
+			}
+		}
+	}
 }
