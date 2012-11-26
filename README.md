@@ -25,8 +25,8 @@ The website for the **MR.jafary**
 
 
 ###The Team
-* [**Zohreh Zahedi**](http://github.com/zohreh-z) ???????????
-* [**Mahla Delpak**](https://github.com/mahlad) ???????????????
+* [**Zohreh Zahedi**](http://github.com/zohreh-z) on Github
+* [**Mahla Delpak**](https://github.com/mahlad) on Github
 
 ### All rights reserved ###
 Please note that ??????.??? is a curated site and that we reserve the right to refuse any listing for any reason.
