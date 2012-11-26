@@ -5,11 +5,11 @@ The website for the **MR.jafary**
 
 ###Contributing
 
-* Check our projec's website and report any bugs or ideas in [issues](https://github.com/zohreh-z/mehdi-jafary.git)
+* Check our projec's website and report any bugs or ideas in [issues](https://github.com/primedev/Agriculture.git)
 
 * Check our project's source with
 ```
-    git clone https://github.com/zohreh-z/mehdi-jafary.git
+    git clone https://github.com/primedev/Agriculture.git
 ```
 
 ###Buliding Technologies
@@ -26,7 +26,7 @@ The website for the **MR.jafary**
 
 ###The Team
 * [**Zohreh Zahedi**](http://github.com/zohreh-z) Project Manager / Developer / Data Gather
-* [**Mahla Delpak**](https://github.com/mahlad) Designer / Developer 
+* [**Mahla Delpak**](https://github.com/mahlad) Programing / Developer 
 
 ### All rights reserved ###
 Please note that ??????.??? is a curated site and that we reserve the right to refuse any listing for any reason.
