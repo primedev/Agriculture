@@ -49,7 +49,7 @@
 	<section class="container">
 		<header class="cover">
 			<section class="top cover">
-				<nav class="main-menu w19 right">
+				<nav class="main-menu w21 right">
 					<ul class="lavaLamp">
 						<li class="current_page_item"><a href="#">صفحه اصلی</a></li>
 						<li><a href="#">درباره ما</a></li>
