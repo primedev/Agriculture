@@ -6,8 +6,6 @@
 	<link href="1styles.css" rel="stylesheet" type="text/css" />
 	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 	<link href="style.less" rel="stylesheet/less" type="text/css" />
-	<link type="text/css"rel="stylesheet" href="style-slide-top.css"/>
-	<link rel="stylesheet" type="text/css" href="style.css">
 	
 	<script type="text/javascript">
 		document.write('<script type="text/javascript" src=scripts/' + ('__proto__' in {} ? 'zepto' : 'jquery') + '.js><\/script>');
@@ -44,6 +42,19 @@
 	<div id="loading">
 		<img src="images/loading.gif" alt="">
 	</div>
+	<section class="container cover">
+		<header>
+
+		</header>
+		<section class="content">
+			
+		</section>
+		<footer>
+			© 2010  •  
+			<a href="#" title="Agriculture">Agriculture</a>
+			  •  All rights reserved
+		</footer>
+	</section>
 	
 </body>
 </html>
