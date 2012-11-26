@@ -46,8 +46,8 @@ body.preload div#loading ,div#loading img {
 body{
 
 	font-size: 72%;
-	/*font-family: Georgia, "Times New Roman", Times, serif;*/
-	line-height: 2em;
+	line-height: 2em;	
+	direction: rtl;
 	color: #413F3E;
 	background: #F7F7F7;
 	padding-bottom: 10px;
@@ -130,9 +130,14 @@ body{
 				
 				a.logo{
 					height: 130px;
-					/*padding-left: 42px;*/
 					display: block;
 					background: url('./images/mainlogo.png') 0 0 no-repeat;
+
+					h1{
+						width: 0!important;
+						overflow: hidden;
+						text-indent: -999em !important;
+					}
 				}
 			}
 		}
