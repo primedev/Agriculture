@@ -69,7 +69,7 @@ body{
 			background: url('./images/top_shadow.png') 0 0 no-repeat;
 
 			nav.main-menu{
-				ul{
+				ul.lavaLamp{
 					list-style-type: none;
 					float: right;
 					position: absolute;
@@ -81,30 +81,43 @@ body{
 					margin: 0;
 					padding: 3px;
 					/*z-index: 1000;*/
+					li.current_page_item a{
+						color: @select-color;
+					}
 					>li{
 						float: right;
 						height: 26px;
 						position: relative;
+						z-index: 100;
 
 						a{
-							position: relative;
-							/*overflow: hidden;
-							text-decoration: none;
-							text-transform: uppercase;
-							font: bold 0.95em Georgia, "Times New Roman", Times, serif;*/
 							line-height: 0.95em;
-							font-size: 18px;
+							font-size:21px;
 							color: #212121;
 							outline: none;
 							text-align: center;
 							height: 26px;
-							top: 3px;
-							/*z-index: 10;*/
 							letter-spacing: 0;
-							/*float: left;*/
 							display: block;
-							margin: 2px 20px;
-							/*z-index: 1000;*/
+							margin: 4px 17px;
+							.transition(all 1s);
+
+							/*&:hover{
+								color : @select-color;
+							}*/
+						}
+					}
+					li.back{
+						background: url('./images/m_right.png') no-repeat top right;
+						width: 7px;
+						height: 26px;
+						z-index: 8;
+						position: absolute;
+
+						.imgleft{
+							background: url('./images/m_left.png') no-repeat top left;
+							height: 26px;
+							margin-right: 7px;
 						}
 					}
 				}
