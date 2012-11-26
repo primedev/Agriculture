@@ -42,9 +42,19 @@
 	<div id="loading">
 		<img src="images/loading.gif" alt="">
 	</div>
-	<section class="container cover">
-		<header>
+	<section class="container">
+		<header class="cover">
+			<section class="top cover">
+				<a href="#" title="Agriculture" class="logo"></a>
+			</section>
 
+			<section class="text">
+				
+			</section>
+
+			<section class="box">
+				
+			</section>
 		</header>
 		<section class="content">
 			
