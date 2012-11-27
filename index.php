@@ -87,7 +87,24 @@
 				</div>
 			</section>
 
-			<section class="sideleft"></section>
+			<section class="sideleft">
+				<div class="title">
+					<div class="hello-title">
+				با سلام !
+					</div>
+					<p class="title">به وب سایت شخصی مهندس مهدی جعفری خوش آمدید</p>
+					<p>در این وب سایت ..در این وب سایت ..در این وب سایت ..در این وب سایت ..در این وب سایت .. در این وب سایت .. در این وب سایت .. در این وب سایت .. در این وب سایت .. .</p>
+				</div>
+				<div class="post">
+					 <div class="post-title">
+					 	<h2><a href="#">مقاله 1 مقاله 1 مقاله</a></h2>
+					 	<div class="author">
+					 		نویسنده :
+					 		<span>مدیر</span>
+					 	</div>
+					 </div>
+				</div>
+			</section>
 
 		</section>
 		<footer>
