@@ -346,6 +346,11 @@ body{
 									width: 60px;
 									margin: 0 auto;
 									font-size: 26px;
+									.transition(all 0.5s);
+								}
+
+								&:hover p{
+									color: #212121;
 								}
 							}
 						}
@@ -387,6 +392,7 @@ body{
 						color: #73BD00;
 						text-decoration: none;
 						background: url('./images/btn_left.png') 0 0 no-repeat;
+						.transition(all 0.6s);
 
 						b{
 							width: 7px;
@@ -397,6 +403,10 @@ body{
 							overflow: hidden;
 							display: block;
 							background: url('./images/btn_right.png') 0 0 no-repeat;
+						}
+
+						&:hover{
+							color: @select-color;
 						}
 					}
 				}
