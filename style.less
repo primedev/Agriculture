@@ -1,5 +1,6 @@
 @green-color : #73BD00;
 @select-color : #F80;
+@text-color : #212121;
 ::-webkit-scrollbar {
     width: 16px; 
 }
@@ -46,14 +47,19 @@ body.preload div#loading ,div#loading img {
 body{
 
 	font-size: 72%;
-	line-height: 2em;	
+	line-height: 35px;	
 	direction: rtl;
+	text-align: right;
 	color: #413F3E;
 	background: #F7F7F7;
 	padding-bottom: 10px;
 
 	a{
 		text-decoration: none;
+
+		&:hover{
+			color : @select-color;
+		}
 	}
 
 	header{
@@ -96,7 +102,7 @@ body{
 						a{
 							line-height: 0.95em;
 							font-size:21px;
-							color: #212121;
+							color: @text-color;
 							outline: none;
 							text-align: center;
 							height: 26px;
@@ -105,9 +111,9 @@ body{
 							margin: 4px 17px;
 							.transition(all 1s);
 
-							/*&:hover{
+							&:hover{
 								color : @select-color;
-							}*/
+							}
 						}
 					}
 					li.back{
@@ -210,7 +216,80 @@ body{
 
 			section.sideleft{
 				width: auto;
-				margin-right:310px;	
+				margin-right:306px;	
+
+				div.title{
+					width: 623px;
+					margin-top: 10px;
+					padding: 0 10px;
+					/*overflow: hidden;*/
+					/*zoom: 1;*/
+					margin-bottom: 1px;
+					/*padding: 0 35px 30px 50px;*/
+					background: url('./images/quotes.png') 500px 0px no-repeat;
+					border-bottom: 1px solid #E4E3E3;
+					/*font-size: 1.4em;
+					font-style: italic;*/
+
+					div.hello-title{
+						/*font: 3.8em Arial, Helvetica, sans-serif;*/
+						font-size: 55px;
+						/*height:65px;*/
+						color: @select-color;
+						padding-top: 40px;
+						padding-right: 150px;
+						padding-bottom: 40px;
+					}
+
+					p{
+						color: @text-color;
+						font-size:18px; 
+					}
+
+					p.title{
+						color: @green-color;
+						font-size: 28px;
+						font-weight: bolder;
+						font-style: italic;
+					}
+				}
+				div.post{
+					width: 583px;
+					margin-bottom: 1px;
+					padding: 25px 35px 30px 25px;
+					background: url('./images/post_bg.gif') top repeat-x white;
+					border-top: 2px solid #E8E8E8;
+					border-bottom: 1px solid #E4E3E3;
+
+					div.post-title{
+						position: relative;
+						padding-bottom: 35px;
+
+						h2{
+							/*font: 2.45em Arial, Helvetica, sans-serif;*/
+							color: @text-color;
+								/*line-height: 20px;
+								margin-right: 100px;
+								margin-bottom: 8px;*/
+							a{
+								font-size:28px;
+								.transition(all 1s);
+							}
+						}
+
+						div.author{
+							margin-left: 100px;
+							padding: 1px 20px;
+							font-size: 15px;
+							line-height: 20px;
+							/*font-size: 0.95em;*/
+							color: #7B7B7F;
+							background: url('./images/dot.gif') top repeat-x #F2F2F2;
+							border-top: 1px solid #C6C6C6;
+							border-bottom: 1px solid #E8E8E8;
+						}
+					}
+				}
 			}
 		}
 		footer{
