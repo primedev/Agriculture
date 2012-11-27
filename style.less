@@ -47,9 +47,9 @@ body.preload div#loading ,div#loading img {
 body{
 
 	font-size: 72%;
-	line-height: 35px;	
+	line-height: 23px;	
 	direction: rtl;
-	text-align: right;
+	text-align: justify;
 	color: #413F3E;
 	background: #F7F7F7;
 	padding-bottom: 10px;
@@ -244,6 +244,7 @@ body{
 					p{
 						color: @text-color;
 						font-size:18px; 
+						line-height: 35px;	
 					}
 
 					p.title{
@@ -256,7 +257,7 @@ body{
 				div.post{
 					width: 583px;
 					margin-bottom: 1px;
-					padding: 25px 35px 30px 25px;
+					padding: 25px 35px 10px 25px;
 					background: url('./images/post_bg.gif') top repeat-x white;
 					border-top: 2px solid #E8E8E8;
 					border-bottom: 1px solid #E4E3E3;
@@ -268,6 +269,7 @@ body{
 						h2{
 							/*font: 2.45em Arial, Helvetica, sans-serif;*/
 							color: @text-color;
+							margin-right: 50px;
 								/*line-height: 20px;
 								margin-right: 100px;
 								margin-bottom: 8px;*/
@@ -279,6 +281,7 @@ body{
 
 						div.author{
 							margin-left: 100px;
+							margin-right: 50px;
 							padding: 1px 20px;
 							font-size: 15px;
 							line-height: 20px;
@@ -287,6 +290,113 @@ body{
 							background: url('./images/dot.gif') top repeat-x #F2F2F2;
 							border-top: 1px solid #C6C6C6;
 							border-bottom: 1px solid #E8E8E8;
+						}
+
+						div.date{
+							width: 40px;
+							height: 46px;
+							padding: 5px;
+							position: absolute;
+							top: 0;
+							left: -50px;
+							background: url('./images/date_bg.png') 0 0 no-repeat;
+							color: #222;
+
+							span.number{
+								margin-right:5px;
+								color: #fff;
+								text-align: center;
+								font-size: 29px;
+							}
+
+							span.month{
+								font-size: 14px;
+							}
+						}
+
+						div.comments{
+							width: 60px;
+							height: 70px;
+							/*overflow: hidden;*/
+							position: absolute;
+							top: 1px;
+							right: -30px;
+							text-align: center;
+							font-size: 0.95em;
+							line-height: 1em;
+							font-style: italic;
+							color: #ABABAB;
+
+							a.count-cmnt{
+								width: 50px;
+								height: 32px;
+								display: block;
+								padding: 3px 5px 15px;
+								text-align: center;
+								position: relative;
+								overflow: hidden;
+								font-size: 3em;
+								line-height: 0.7em;
+								text-decoration: none;
+								color: #F80;
+								background: url('./images/comments_bg.png') 0 0 no-repeat;
+
+								p{
+									line-height: 35px;
+									width: 60px;
+									margin: 0 auto;
+									font-size: 26px;
+								}
+							}
+						}
+					}
+				}
+				div.post-content{
+					overflow: hidden;
+					/*zoom: 1;*/
+					padding-bottom: 2em;
+
+					div.img-post{
+						float: right;
+						position: relative;
+						padding-left: 10px;
+
+						img{
+							padding: 1px;
+							background: white;
+							border: 3px solid #999;
+						}
+					}
+
+					p{
+						/*padding-right: 180px;*/
+						font-size: 17px;
+						min-height: 160px;
+					}
+					a.more{
+						height: 15px;
+						margin-right: 7px;
+						padding: 8px 5px 6px 12px;
+						position: relative;
+						display: block;
+						float: left;
+						font-size: 12px;
+						font-weight: bold;
+						line-height: 1em;
+						font-style: normal;
+						color: #73BD00;
+						text-decoration: none;
+						background: url('./images/btn_left.png') 0 0 no-repeat;
+
+						b{
+							width: 7px;
+							height: 29px;
+							top: 0;
+							right: -7px;
+							position: absolute;
+							overflow: hidden;
+							display: block;
+							background: url('./images/btn_right.png') 0 0 no-repeat;
 						}
 					}
 				}
