@@ -28,7 +28,7 @@
 				</div>
 				<div class="post">
 					<div class="post-title">
-					 	<h2><a href="#">نام کامل مقاله</a></h2>
+					 	<h2 style="margin-right:50px; border:none;"><a href="#">نام کامل مقاله</a></h2>
 					 	<div class="author">
 					 		نویسنده :
 					 		<span>مدیر</span>
