@@ -1,6 +1,7 @@
 @green-color : #73BD00;
 @select-color : #F80;
 @text-color : #212121;
+
 ::-webkit-scrollbar {
     width: 16px; 
 }
@@ -64,12 +65,11 @@ body{
 
 	header{
 		width: 950px;
-		height: 470px;
 		padding-bottom: 7px;
 
 		section.top{
 			width: 950px;
-			height: 76px;
+			height: 125px;
 			position: relative;
 			
 			background: url('./images/top_shadow.png') 0 0 no-repeat;
@@ -89,7 +89,7 @@ body{
 					background: url('./images/menu.png') no-repeat top left;
 					margin: 0;
 					padding: 3px;
-					/*z-index: 1000;*/
+
 					li.current_page_item a{
 						color: @select-color;
 					}
@@ -149,6 +149,9 @@ body{
 		}
 	}
 
+	section.slide-zoom{
+		height:400px;
+	}
 	section.container{
 
 		section.content{
@@ -161,11 +164,10 @@ body{
 				width: 950px;
 				height: 8px;
 				overflow: hidden;
-				zoom: 1;
+				/*zoom: 1;*/
 				position: absolute;
 				top: 0;
 				left: 0;
-				/*z-index: 200;*/
 				background: url('./images/top_corner.png') 0 0 repeat-y;
 			}
 
@@ -222,19 +224,13 @@ body{
 					width: 623px;
 					margin-top: 10px;
 					padding: 0 10px;
-					/*overflow: hidden;*/
 					/*zoom: 1;*/
 					margin-bottom: 1px;
-					/*padding: 0 35px 30px 50px;*/
 					background: url('./images/quotes.png') 500px 0px no-repeat;
 					border-bottom: 1px solid #E4E3E3;
-					/*font-size: 1.4em;
-					font-style: italic;*/
 
 					div.hello-title{
-						/*font: 3.8em Arial, Helvetica, sans-serif;*/
 						font-size: 55px;
-						/*height:65px;*/
 						color: @select-color;
 						padding-top: 40px;
 						padding-right: 150px;
@@ -267,12 +263,10 @@ body{
 						padding-bottom: 35px;
 
 						h2{
-							/*font: 2.45em Arial, Helvetica, sans-serif;*/
 							color: @text-color;
 							margin-right: 50px;
-								/*line-height: 20px;
-								margin-right: 100px;
-								margin-bottom: 8px;*/
+							padding-bottom: 10px;
+					
 							a{
 								font-size:28px;
 								.transition(all 1s);
@@ -285,7 +279,6 @@ body{
 							padding: 1px 20px;
 							font-size: 15px;
 							line-height: 20px;
-							/*font-size: 0.95em;*/
 							color: #7B7B7F;
 							background: url('./images/dot.gif') top repeat-x #F2F2F2;
 							border-top: 1px solid #C6C6C6;
@@ -317,7 +310,6 @@ body{
 						div.comments{
 							width: 60px;
 							height: 70px;
-							/*overflow: hidden;*/
 							position: absolute;
 							top: 1px;
 							right: -30px;
@@ -334,7 +326,6 @@ body{
 								padding: 3px 5px 15px;
 								text-align: center;
 								position: relative;
-								overflow: hidden;
 								font-size: 3em;
 								line-height: 0.7em;
 								text-decoration: none;
@@ -350,7 +341,7 @@ body{
 								}
 
 								&:hover p{
-									color: #212121;
+									color: @text-color;
 								}
 							}
 						}
@@ -374,7 +365,6 @@ body{
 					}
 
 					p{
-						/*padding-right: 180px;*/
 						font-size: 17px;
 						min-height: 160px;
 					}
@@ -389,7 +379,7 @@ body{
 						font-weight: bold;
 						line-height: 1em;
 						font-style: normal;
-						color: #73BD00;
+						color: @green-color;
 						text-decoration: none;
 						background: url('./images/btn_left.png') 0 0 no-repeat;
 						.transition(all 0.6s);
