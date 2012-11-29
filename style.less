@@ -228,16 +228,14 @@ body{
 			width: 950px;
 			height: 125px;
 			position: relative;
-			
 			background: url('./images/top_shadow.png') 0 0 no-repeat;
 
 			nav.main-menu{
 				border-bottom: 4px solid #2A2A2A;
 				height:80px;
+
 				ul.lavaLamp{
 
-					list-style-type: none;
-					float: right;
 					position: absolute;
 					top: 30px;
 					right: 10px;
@@ -247,16 +245,17 @@ body{
 					margin: 0;
 					padding: 3px;
 
-					li.current_page_item a{
-						color: @select-color;
-					}
 					>li{
-						float: right;
 						height: 26px;
+						float: right;
+						list-style: none;
 						position: relative;
-						z-index: 100;
 
 						a{
+							position: relative;
+							overflow: hidden;
+							text-decoration: none;
+							text-transform: uppercase;
 							line-height: 0.95em;
 							font-size:21px;
 							color: @text-color;
@@ -266,12 +265,16 @@ body{
 							letter-spacing: 0;
 							display: block;
 							margin: 4px 17px;
-							/*.transition(all 1s);*/
-
+							z-index: 1000;
+							.transition(all 0.8s);
+							
 							&:hover{
 								color : @select-color;
 							}
 						}
+					}
+					li.current_page_item a{
+						color: @select-color;
 					}
 					li.back{
 						background: url('./images/m_right.png') no-repeat top right;
@@ -279,8 +282,9 @@ body{
 						height: 26px;
 						z-index: 8;
 						position: absolute;
+						.transition(all 1s);
 
-						.imgleft{
+						div.imgleft{
 							background: url('./images/m_left.png') no-repeat top left;
 							height: 26px;
 							margin-right: 7px;
