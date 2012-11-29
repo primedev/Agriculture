@@ -57,11 +57,43 @@ body{
 
 	a{
 		text-decoration: none;
+		.transition(all 0.8s);
 
 		&:hover{
 			color : @select-color;
 		}
 	}
+	a.more{
+						height: 15px;
+						margin-right: 7px;
+						padding: 8px 5px 6px 12px;
+						position: relative;
+						display: block;
+						float: left;
+						font-size: 12px;
+						font-weight: bold;
+						line-height: 1em;
+						font-style: normal;
+						color: @green-color;
+						text-decoration: none;
+						background: url('./images/btn_left.png') 0 0 no-repeat;
+						/*.transition(all 0.6s);*/
+
+						b{
+							width: 7px;
+							height: 29px;
+							top: 0;
+							right: -7px;
+							position: absolute;
+							overflow: hidden;
+							display: block;
+							background: url('./images/btn_right.png') 0 0 no-repeat;
+						}
+
+						&:hover{
+							color: @select-color;
+						}
+					}
 	/******************** MARKRTING*****************/
 	section.content-marketing{
 		width: 950px;
@@ -106,10 +138,23 @@ body{
 					background: url('./images/px2.gif') bottom repeat-x;
 					border-bottom: 2px solid #EFEFEF;
 
+					div.detail{
+						margin-right: 415px;
+						h3{
+							color: #1F1F20;
+							font-size:2em;
+						}
+
+						p{
+							color: #949499;
+							min-height: 150px;
+						}
+					}
+
 					div.img-marketing{
 						width: 379px;
 						height: 190px;
-						float: left;
+						float: right;
 						padding-right: 20px;
 						position: relative;
 					}
@@ -198,7 +243,7 @@ body{
 							letter-spacing: 0;
 							display: block;
 							margin: 4px 17px;
-							.transition(all 1s);
+							/*.transition(all 1s);*/
 
 							&:hover{
 								color : @select-color;
@@ -361,7 +406,7 @@ body{
 					
 							a{
 								font-size:28px;
-								.transition(all 1s);
+								/*.transition(all 1s);*/
 							}
 						}
 
@@ -476,37 +521,6 @@ body{
 					p{
 						font-size: 17px;
 						min-height: 160px;
-					}
-					a.more{
-						height: 15px;
-						margin-right: 7px;
-						padding: 8px 5px 6px 12px;
-						position: relative;
-						display: block;
-						float: left;
-						font-size: 12px;
-						font-weight: bold;
-						line-height: 1em;
-						font-style: normal;
-						color: @green-color;
-						text-decoration: none;
-						background: url('./images/btn_left.png') 0 0 no-repeat;
-						.transition(all 0.6s);
-
-						b{
-							width: 7px;
-							height: 29px;
-							top: 0;
-							right: -7px;
-							position: absolute;
-							overflow: hidden;
-							display: block;
-							background: url('./images/btn_right.png') 0 0 no-repeat;
-						}
-
-						&:hover{
-							color: @select-color;
-						}
 					}
 					/******just contact*****/
 					h6{
