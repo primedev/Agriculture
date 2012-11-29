@@ -1,6 +1,6 @@
 <nav class="main-menu w21 right">
 	<ul class="lavaLamp">
-		<li class="current_page_item"><a href="./index.php">صفحه اصلی</a></li>
+		<li><a href="./index.php">صفحه اصلی</a></li>
 		<li><a href="./about.php">درباره ما</a></li>
 		<li><a href="./article.php">مقالات</a></li>
 		<li><a href="./marketing.php">فروش اسلاید</a></li>
