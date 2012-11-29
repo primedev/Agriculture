@@ -19,9 +19,7 @@
 					<div class="detail">
 						<h3><a href="#"> نام اسلاید </a></h3>
 						<p class="f12"> خلاصه محتوای اسلاید</p>
-						<a href="#" class="more">
-							<b></b> 
-							خرید اسلاید</a>
+						<a href="#" class="shop"></a>
 					</div>
 				</li>
 			</ul>	
