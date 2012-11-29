@@ -71,7 +71,7 @@ body{
 		background: url('./images/cont_px1col.png') 0 0 repeat-y;
 
 		div.marketing{
-			/*padding: 25px 50px;*/
+			padding: 25px 50px;
 			background: url('./images/post_bg.gif') top repeat-x;
 
 			div.top-img{
@@ -85,8 +85,53 @@ body{
 				z-index: 200;
 				background: url('./images/top_corner1col.png') 0 0 no-repeat;
 			}
+
+			div.title{
+				margin-bottom: 35px;
+				padding-bottom: 10px;
+				border-bottom: 2px solid #C6C6C6;
+
+				h1{
+					color: @text-color;
+					line-height: 0.9em;
+				}
+			}
+
+			ul#marketing-category{
+				li{
+					overflow: hidden;
+					zoom: 1;
+					margin: 0 0 25px;
+					padding: 0 0 25px;
+					background: url('./images/px2.gif') bottom repeat-x;
+					border-bottom: 2px solid #EFEFEF;
+
+					div.img-marketing{
+						width: 379px;
+						height: 190px;
+						float: left;
+						padding-right: 20px;
+						position: relative;
+					}
+
+					.gall{
+						width: 379px;
+						height: 190px;
+						margin-bottom: 0;
+					}
+				}
+			}
 		}
 	}
+	.gall{
+						width: 262px;
+						height: 154px;
+						display: block;
+						overflow: hidden;
+						position: relative;
+						margin-bottom: 5px;
+						background: url('./images/loading2.gif') 50% 50% no-repeat #9B9B9B;
+					}
 	header{
 		width: 950px;
 		padding-bottom: 7px;
