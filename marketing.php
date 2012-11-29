@@ -16,6 +16,13 @@
 							<img src="images/portfolio_thumb_hover2.png" width="371" height="182" class="b" style="opacity : 0" />
 						</a>
 					</div>
+					<div class="detail">
+						<h3><a href="#"> نام اسلاید </a></h3>
+						<p class="f12"> خلاصه محتوای اسلاید</p>
+						<a href="#" class="more">
+							<b></b> 
+							خرید اسلاید</a>
+					</div>
 				</li>
 			</ul>	
 		</div>
