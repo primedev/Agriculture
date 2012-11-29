@@ -16,7 +16,7 @@
 	</script>
 	<script type="text/javascript" src="scripts/jquery.js">
 	</script>
-	<script type="text/javascript" src="scripts/menuhover.js">
+	<script type="text/javascript" src="scripts/move-menu.js">
 	</script>
 	<!--[if IE]>
 		<script type="text/javascript" src="/scripts/html5.js"></script>
