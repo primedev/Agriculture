@@ -19,6 +19,7 @@
 			?>
 
 			<section class="sideleft">
+				<div class="ajaxcontent">
 				<div class="title">
 					<div class="hello-title">
 				با سلام !
@@ -29,6 +30,7 @@
 				<?php 
 					include "post.php";
 				?>
+			</div>
 			</section>
 
 		</section>
