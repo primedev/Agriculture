@@ -8,11 +8,13 @@
 	include "sidebarright.php";
 ?>
 	<section class="sideleft">
+		<div class="ajaxcontent">
 		<?php 
 			include "post.php";
 			include "post.php";
 			include "post.php";
 		?>
+		</div>
 	</section>
 </section>
 <?php
