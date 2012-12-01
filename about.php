@@ -8,6 +8,7 @@
 	include "sidebarright.php";
 ?>
 	<section class="sideleft">
+		<div class="ajaxcontent">
 		<div class="post">
 			<div class="post-title">
 				<h2>درباره ما</h2>
@@ -28,6 +29,7 @@
 				<h2>اهداف ما :</h2>
 			</div>
 			<p class="f12"> هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما هدف ما </p>
+		</div>
 		</div>
 	</section>
 </section>
