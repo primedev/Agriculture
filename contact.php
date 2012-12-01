@@ -8,6 +8,7 @@
 	include "sidebarright.php";
 ?>
 <section class="sideleft">
+	<div class="ajaxcontent">
 	<div class="post">
 		<div class="post-title">
 			<h2>ارتباط با ما</h2>
@@ -17,6 +18,7 @@
 		<div class="post-title">
 			<h2>ارسال ایمیل</h2>
 		</div>
+	</div>
 	</div>
 </section>
 </section>
