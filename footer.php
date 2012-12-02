@@ -1,6 +1,6 @@
 		<footer>
 			© 2010  •  
-			<a href="#" title="Agriculture">Agriculture</a>
+			<a href="./index.php" title="Agriculture">Agriculture</a>
 			  •  All rights reserved
 		</footer>
 	</section>
