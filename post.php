@@ -23,7 +23,7 @@
 			</a>
 		</div>
 		<p>در این سایتدر این سایتدر این سایتدر این سایتدر این سایتدر این سایتدر این سایتدر این سایتدر این سایتدر این سایتدر این سایت</p>
-		<a title="./specialarticle.php" class="more">
+		<a href="./specialarticle.php" class="more" target="_blank">
 			<b></b>
 			ادامه مطلب 
 		</a>
