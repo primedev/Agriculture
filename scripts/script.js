@@ -50,11 +50,10 @@ $(function(){
 		},700,null,function(){
 			$(this).css({display:'none'});
 		});
-		$('a.more').click(function(){
-			alert(12);
-			var url = $(this).attr('title');
-			window.location.href = pageUrl + '#' + url;	
- 		});
+		// $('a.more').click(function(){
+		// 	var url = $(this).attr('title');
+		// 	window.location.href = pageUrl + '#' + url;	
+ 	// 	});dorost kar nemikonad!!!!
 	}
 	//end ajax
 });
