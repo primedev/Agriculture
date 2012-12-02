@@ -53,7 +53,7 @@ $(function(){
 		$('a.more').click(function(){
 			alert(12);
 			var url = $(this).attr('title');
-			 // window.location.href = pageUrl + '#' + url;	
+			window.location.href = pageUrl + '#' + url;	
  		});
 	}
 	//end ajax
