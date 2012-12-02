@@ -3,6 +3,7 @@
 	include "topheader.php";
 ?>
 	<section class="content-marketing">
+		<div class="ajaxcontent">
 		<div class="marketing cover">
 			<div class="top-img"></div>
 			<div class="title">
@@ -36,6 +37,7 @@
 					</div>
 				</li>
 			</ul>	
+		</div>
 		</div>
 	</section>
 <?php
