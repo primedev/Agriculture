@@ -15,6 +15,7 @@ $(function(){
 
 	var loadpage = function(url){
 		url = url.length > 2 ? url.substr(1) : 'index.php';
+
 		$('.ajaxcontent').load(url+' .ajaxcontent');
 	}
 
@@ -30,9 +31,12 @@ $(function(){
 		pageUrl = pageUrl.substr(0,sharPos);
 	}
 
-	$('nav.main-menu a').click(function(){
+	var lia = $('nav.main-menu a');
+
+	lia.click(function(){
 		var url = $(this).attr('href');
 		window.location.href = pageUrl + '#' + url;
+
 		return false;
 	});
 
@@ -46,6 +50,11 @@ $(function(){
 		},700,null,function(){
 			$(this).css({display:'none'});
 		});
+		$('a.more').click(function(){
+			alert(12);
+			var url = $(this).attr('title');
+			 // window.location.href = pageUrl + '#' + url;	
+ 		});
 	}
 	//end ajax
 });
