@@ -41,7 +41,7 @@ $(function(){
 		pageUrl = pageUrl.substr(0,sharPos);
 	}
 
-	var lia = $('ul.lavaLamp li a') , $listli =$('ul.lavaLamp li');
+	var $listli =$('ul.lavaLamp > li');
 
 	$listli.click(function(){
 		$(this).addClass('blabla');
