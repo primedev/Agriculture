@@ -5,7 +5,7 @@
 	
 	<section class="logo">
 		<a href="./index.php" title="Agriculture" class="logo">
-				<h1>Agrculture</h1>
+				<h1>mehdi jafary</h1>
 			</a>
 	</section>
 <section class="content cover">
