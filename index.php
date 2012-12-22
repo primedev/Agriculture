@@ -4,15 +4,7 @@
 			<?php 
 				include "topheader.php";
 			?>
-		<section class="slide-zoom">
-			<section class="text">
-			</section>
-
-			<section class="box">
-			</section>
-		</section>
-		<section class="content cover">
-			<div class="bg-top"></div>
+		
 
 			<?php 
 				include "sidebarright.php";
