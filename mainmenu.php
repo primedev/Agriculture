@@ -1,4 +1,4 @@
-<nav class="main-menu w21 right">
+<!-- <nav class="main-menu w21 right"> -->
 	<ul class="lavaLamp">
 		<li><a href="./index.php">صفحه اصلی</a></li>
 		<li><a href="./about.php">درباره ما</a></li>
@@ -9,4 +9,4 @@
 	<script type="text/javascript">
 		$(function() { $(".lavaLamp").lavaLamp({ fx: "backout", speed: 700}) });
 	</script>
-</nav>
+<!-- </nav> -->
