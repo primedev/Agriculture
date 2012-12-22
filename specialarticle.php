@@ -1,13 +1,19 @@
 <?php 
 	include "header.php";
-	 include "topheader.php";
+	 // include "topheader.php";
 ?>
+	
+	<section class="logo">
+		<a href="./index.php" title="Agriculture" class="logo">
+				<h1>Agrculture</h1>
+			</a>
+	</section>
 <section class="content cover">
 	<div class="bg-top"></div>
 <?php
 	include "sidebarright.php";
 ?>
-	<section class="sideleft">
+	<section class="sideleft ">
 		<!-- <div class="ajaxcontent"> -->
 		<div class="post">
 			<div class="post-title">
