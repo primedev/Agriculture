@@ -231,9 +231,9 @@ body{
 			position: relative;
 			background: url('./images/top_shadow.png') 0 0 no-repeat;
 
-			nav.main-menu{
+			/*nav.main-menu{
 				border-bottom: 4px solid #2A2A2A;
-				height:80px;
+				height:80px;*/
 
 				ul.lavaLamp{
 
@@ -245,12 +245,16 @@ body{
 					background: url('./images/menu.png') no-repeat top left;
 					margin: 0;
 					padding: 3px;
+					z-index: 1000;
 
 					>li{
 						height: 26px;
 						float: right;
 						list-style: none;
 						position: relative;
+						z-index: 1000;
+
+						margin-right:10px;
 
 						a{
 							position: relative;
@@ -265,8 +269,15 @@ body{
 							height: 26px;
 							letter-spacing: 0;
 							display: block;
+							/*display:block;
+							padding: 4px;*/
 							margin: 4px 17px;
-							z-index: 1000;
+							/*padding:5px;*/
+							/*outline: 1px dashed red;*/
+							z-index: -1;
+							top: 3px;
+							float: right;
+						
 							.transition(all 0.8s);
 							
 							&:hover{
@@ -277,6 +288,7 @@ body{
 					li.current_page_item a{
 						color: @select-color;
 					}
+
 					li.back{
 						background: url('./images/m_right.png') no-repeat top right;
 						width: 7px;
@@ -285,14 +297,14 @@ body{
 						position: absolute;
 						.transition(all 1s);
 
-						div.imgleft{
+						div.leftimg{
 							background: url('./images/m_left.png') no-repeat top left;
 							height: 26px;
 							margin-right: 7px;
 						}
 					}
 				}
-			}
+			/*}*/
 
 			section.logo{
 				
@@ -312,7 +324,7 @@ body{
 	}
 
 	section.slide-zoom{
-		height:400px;
+		height:300px;
 	}
 	section.container{
 
