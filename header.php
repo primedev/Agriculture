@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8" />
 	<title>Agricukture</title>
 	<link href="1styles.css" rel="stylesheet" type="text/css" />
 	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
@@ -9,6 +9,8 @@
 	
 	<script type="text/javascript">
 		document.write('<script type="text/javascript" src=scripts/' + ('__proto__' in {} ? 'zepto' : 'jquery') + '.js><\/script>');
+	</script>
+	<script type="text/javascript" src="scripts/jquerymin.js">
 	</script>
 	<script type="text/javascript" src="scripts/less.js">
 	</script>
