@@ -12,7 +12,17 @@ $(function(){
 	});
 
 		//  AJAX
+		// var $lia = $('nav.main-menu a');
+		// $res = "article.php";
+		// $lia.click(function(){
 
+		// 	$.ajax({
+		// 		url : $res,
+		// 		success : function(data){
+		// 			$(".ajaxcontent").html(data);
+		// 		}
+		// 	});
+		// });
 	var loadpage = function(url){
 		url = url.length > 2 ? url.substr(1) : 'index.php';
 
@@ -31,12 +41,13 @@ $(function(){
 		pageUrl = pageUrl.substr(0,sharPos);
 	}
 
-	var lia = $('nav.main-menu a');
+	var lia = $('ul.lavaLamp li a') , $listli =$('ul.lavaLamp li');
 
-	lia.click(function(){
-		var url = $(this).attr('href');
+	$listli.click(function(){
+		$(this).addClass('blabla');
+		var url = $('ul.lavaLamp li.blabla a').attr('href');
 		window.location.href = pageUrl + '#' + url;
-
+		$(this).removeClass('blabla');
 		return false;
 	});
 
@@ -53,7 +64,7 @@ $(function(){
 		// $('a.more').click(function(){
 		// 	var url = $(this).attr('title');
 		// 	window.location.href = pageUrl + '#' + url;	
- 	// 	});dorost kar nemikonad!!!!
+ 	// 	});
 	}
 	//end ajax
 });
