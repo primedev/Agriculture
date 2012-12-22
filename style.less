@@ -97,18 +97,18 @@ body{
 	}
 	section.logo{
 				
-				a.logo{
-					height: 130px;
-					display: block;
-					background: url('./images/mainlogo.png') 0 0 no-repeat;
+		a.logo{
+			height: 130px;
+			display: block;
+			background: url('./images/mainlogo.png') 0 0 no-repeat;
 
-					h1{
-						width: 0!important;
-						overflow: hidden;
-						text-indent: -999em !important;
-					}
-				}
+			h1{
+				width: 0!important;
+				overflow: hidden;
+				text-indent: -999em !important;
 			}
+		}
+	}
 	/******************** MARKRTING*****************/
 	section.content-marketing{
 		width: 950px;
@@ -124,8 +124,6 @@ body{
 			div.top-img{
 				width: 950px;
 				height: 8px;
-				/*overflow: hidden;
-				zoom: 1;*/
 				position: absolute;
 				top: 0;
 				left: 0;
@@ -255,7 +253,7 @@ body{
 					top: 30px;
 					right: 10px;
 					height: 26px;
-					width: 548px;
+					width: 550px;
 					background: url('./images/menu.png') no-repeat top left;
 					margin: 0;
 					padding: 3px;
@@ -267,8 +265,20 @@ body{
 						list-style: none;
 						position: relative;
 						z-index: 1000;
-
 						margin-right:10px;
+
+						ul.submenu-article{
+							width: 150px;
+							display: none;
+							position: absolute;
+							top: 25px;
+							border: 1px solid  #adadad;
+							
+						}
+
+						&:hover ul.submenu-article{
+							display: block;
+						}
 
 						a{
 							position: relative;
