@@ -28,7 +28,10 @@ $.fn.lavaLamp = function(o) {
         setCurr(curr);
 
         function move(el) {
-            $back.css({ "left": el.offsetLeft+"px", "width": el.offsetWidth+"px" });
+            $back.css({ 
+                "left": el.offsetLeft+"px", 
+                "width": el.offsetWidth+"px" 
+            });
         };
 
         function setCurr(el) {
