@@ -55,6 +55,12 @@ body{
 	background: #eeeeef;
 	padding-bottom: 10px;
 
+	h6{
+		color: #73BD00;
+		padding-bottom: 8px;
+		font-size: 17px;
+	}
+
 	a{
 		text-decoration: none;
 		.transition(all 0.8s);
@@ -62,6 +68,9 @@ body{
 		&:hover{
 			color : @select-color;
 		}
+	}
+	a.end{
+		margin-top: 20px;
 	}
 	a.more{
 		height: 15px;
@@ -71,7 +80,7 @@ body{
 		display: block;
 		float: left;
 		font-size: 15px;
-		font-weight: bold;
+		/*font-weight: bold;*/
 		line-height: 1em;
 		font-style: normal;
 		color: @green-color;
@@ -95,8 +104,13 @@ body{
 			color: @select-color;
 		}
 	}
+	section.top-text{
+			margin-top: -30px;
+			color: #FF8800;
+			font-size: 23px;
+		}
 	section.logo{
-				
+
 		a.logo{
 			height: 130px;
 			display: block;
@@ -240,13 +254,8 @@ body{
 
 		section.top{
 			width: 950px;
-			height: 125px;
 			position: relative;
 			background: url('./images/top_shadow.png') 0 0 no-repeat;
-
-			/*nav.main-menu{
-				border-bottom: 4px solid #2A2A2A;
-				height:80px;*/
 
 				ul.lavaLamp{
 
@@ -254,7 +263,7 @@ body{
 					top: 30px;
 					right: 10px;
 					height: 26px;
-					width: 550px;
+					/*width: 600px;*/
 					background: url('./images/menu.png') no-repeat top left;
 					margin: 0;
 					padding: 3px;
@@ -269,12 +278,50 @@ body{
 						margin-right:10px;
 
 						ul.submenu-article{
-							width: 150px;
+							/*width: 150px;*/
 							display: none;
 							position: absolute;
 							top: 25px;
 							border: 1px solid  #adadad;
+
+							>li{
+								height: 26px;
+								float: none;
+								/*float: right;*/
+								list-style: none;
+								position: relative;
+								z-index: 1100;
+								/*margin-right:10px;*/
+
+								a{
+							position: relative;
+							overflow: hidden;
+							text-decoration: none;
+							text-transform: uppercase;
+							line-height: 0.95em;
+							font-size:18px;
+							color: @text-color;
+							outline: none;
+							text-align: center;
+							height: 26px;
+							letter-spacing: 0;
+							display: block;
+							/*display:block;
+							padding: 4px;*/
+							/*margin: 0px 17px;*/
+							/*padding:5px;*/
+							/*outline: 1px dashed red;*/
+							z-index: -1;
+							top: 3px;
+							float: right;
+						
+							.transition(all 0.8s);
 							
+							&:hover{
+								color : @select-color;
+							}
+							}
+							}
 						}
 
 						&:hover ul.submenu-article{
@@ -287,7 +334,7 @@ body{
 							text-decoration: none;
 							text-transform: uppercase;
 							line-height: 0.95em;
-							font-size:21px;
+							font-size:18px;
 							color: @text-color;
 							outline: none;
 							text-align: center;
@@ -296,7 +343,7 @@ body{
 							display: block;
 							/*display:block;
 							padding: 4px;*/
-							margin: 4px 17px;
+							margin: 0px 17px;
 							/*padding:5px;*/
 							/*outline: 1px dashed red;*/
 							z-index: -1;
@@ -344,7 +391,7 @@ body{
 
 		section.content{
 			width: 950px;
-			min-height: 570px;
+			/*min-height: 570px;*/
 			position: relative;
 			background: url('./images/cont_px2cols.png') 0 0 repeat-y;
 
@@ -407,7 +454,22 @@ body{
 			section.sideleft {
 				width: auto;
 				margin-right:306px;	
+				/********** ARTICLE ************/
+				div.paging{
+						width: 270px;
+						margin: auto;
+						padding-bottom: 20px;
+					}
 
+				div.gallery{
+					padding: 10px;
+					li{
+						margin-bottom: 5px;
+						margin-right: 10px;
+						float: left;
+						
+					}
+				}
 				div.title{
 					/*width: 623px;*/
 					margin-top: 10px;
@@ -544,6 +606,7 @@ body{
 						background: white;
 						border: 3px solid #AEAEAE;
 					}
+					
 					/******just contact******/
 					div.divseprate{
 						position: relative;
@@ -577,13 +640,7 @@ body{
 						min-height: 160px;
 					}
 					/******just contact*****/
-					h6{
-						/*font: bold 1.1em Georgia, "Times New Roman", Times, serif;*/
-						color: #73BD00;
-						padding-bottom: 8px;
-						font-size: 17px;
-					}
-
+					
 					h5{
 						/*display: block;*/
 						font-size: 17px;
@@ -592,15 +649,45 @@ body{
 					}
 				}
 			}
+			section.comment-article{
+				background-color: #f3f3f3;
+						border-radius: 5px 5px 5px 5px;
+					    box-shadow: 1px 1px 15px #AAAAAA;
+					    display: none;
+					    margin:10px auto;
+					    opacity: 0;
+					    position: relative;
+					    text-align: right ;
+					    width: 560px;
+
+					    .close-nazar{
+					    	background: url("./images/controls.png") repeat scroll 162px 130px transparent;
+					    	cursor: pointer;
+						    float: left;
+						    height: 18px;
+						    left: 0;
+						    position: absolute;
+						    top: -2px;
+						    width: 30px;
+
+						    &:hover{
+						    	background: url("http://www.ekbatane.com/wp-content/themes/ajax-ekbatan/images/controls.png") repeat scroll 162px 149px transparent;
+						    }
+					    }
+					    #content-comment{
+					    	padding: 20px;
+    						width: 540px;
+					    }
+			
+			}
 		}
 		footer{
 			width: 902px;
 			height: 23px;
-			direction: ltr;
 			padding: 20px 24px;
 			color: #413F3E;
 			background: url('./images/footer.png') 0 0 no-repeat;
-			font: bold 15px/23px "Trebuchet MS", Arial;
+			font-size: 18px;
 
 			a{
 				color: @green-color;
@@ -608,15 +695,24 @@ body{
 		}
 	}
 	section.slide-zoom div{
-	position :absolute;
-	top      :0px;
-	left     :0;
-	right    :0;
-	bottom   :0;
-	z-index  :-2;
-	border: 1px solid #d8d8d8;
-	border-radius: 10px;
-	font-size: 35px;
-	color:red;
-}
+		position :absolute;
+		top      :0px;
+		left     :0;
+		right    :0;
+		bottom   :0;
+		z-index  :-2;
+		border: 1px solid #d8d8d8;
+		border-radius: 10px;
+		font-size: 35px;
+		color:red;
+	}
+	ul.mabani{
+		/*list-style-type: decimal;*/
+		li{
+			font-size: 15px;
+			ul{
+				padding-right: 15px;
+			}
+		}
+	}
 }

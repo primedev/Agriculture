@@ -9,13 +9,13 @@
 	position:relative;
 }
 .acc-vertical-main-menue ul.elements-acc-vertical-main-menue li {
-	background:#9fcd18;
+	background:#a6d01a;
 	border-radius: 5px;
 	text-align:right;
 	margin-bottom:5px;
-	background-image:url(../images/acc_men.png);
+	/*background-image:url(../images/acc_men.png);
 	background-repeat:no-repeat;
-	background-position:top right;
+	background-position:top right;*/
 	margin-top:5px;
 	min-height:27px;
 	padding-top:3px;
@@ -30,11 +30,12 @@
 	color:#000;
 	display: block;
 	height: 25px;
-	font-size: 17px;
+	font-size: 16px;
 	background:url(images/link.png) no-repeat right 2px;
-	padding-right:25px;
+	padding-right:22px;
 	text-shadow:1px 1px 1px #CBFF96;
 }
+
 .acc-vertical-main-menue ul.elements-acc-vertical-main-menue li ul li a {
 	text-decoration:none;
 	color:#000;

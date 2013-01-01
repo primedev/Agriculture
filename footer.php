@@ -1,7 +1,7 @@
 		<footer>
-			© 2010  •  
-			<a href="./index.php" title="Agriculture">Agriculture</a>
-			  •  All rights reserved
+			کلیه حقوق مادی و معنوی این سایت متعلق به   
+			<a href="./index.php" title="مهندس جعفری">مهندس مهدی جعفری</a>
+			    می باشد.
 		</footer>
 	</section>
 	

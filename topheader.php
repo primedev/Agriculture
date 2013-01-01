@@ -9,7 +9,7 @@
 				<h1>Agrculture</h1>
 			</a>
 		</section>
-
+		<section class="right top-text">ميرسد مردي كه زنجير غلامان بشكند...........</section>
 	</section>
 </header>
 <section class="slide-zoom">
