@@ -80,7 +80,6 @@ body{
 		display: block;
 		float: left;
 		font-size: 15px;
-		/*font-weight: bold;*/
 		line-height: 1em;
 		font-style: normal;
 		color: @green-color;
@@ -105,10 +104,10 @@ body{
 		}
 	}
 	section.top-text{
-			margin-top: -30px;
-			color: #FF8800;
-			font-size: 23px;
-		}
+		margin-top: -30px;
+		color: #FF8800;
+		font-size: 23px;
+	}
 	section.logo{
 
 		a.logo{
@@ -122,6 +121,24 @@ body{
 				text-indent: -999em !important;
 			}
 		}
+	}
+	input[type="text"] , textarea{
+		display: block;
+		border-radius: 5px;
+		width: 380px;
+		margin-bottom: 8px;
+		&:focus{
+			outline:none;
+		}
+	}
+
+	input[type="submit"]{
+		color: #73BD00;
+		border-radius: 5px;
+		width: 68px;
+		padding: 5px 0;
+		background: #eaeaea;
+		border: 1px solid;
 	}
 	/******************** MARKRTING*****************/
 	/*section.content-marketing{
@@ -409,13 +426,33 @@ body{
 			section.sideright{
 				width: 300px;
 				padding: 20px 5px 20px 0;
-				a.tw{
+				.tw{
 					height: 73px;
-					width: 230px;
+					/*width: 230px;*/
 					margin-bottom: 7px;
+					margin-top: 29px;
 					outline: none;
 					display: block;
-					background: url('./images/twitter_icon.png') 0 0 no-repeat;
+					background: url('./images/twitter_icon.png') right center no-repeat;
+
+					.time{
+						width: 110px;
+						color: #73bd00;
+						float: right;
+						font-size: 27px;
+						/*font-weight: bold;*/
+						margin-right: 50px;
+						margin-top: 22px;
+					}
+					.date{
+						/*width: 110px;*/
+						color: #212121;
+						/*float: left;*/
+						margin-right: 160px;
+						margin-top: 20px;
+						font-size: 32px;
+						/*font-weight: bold;*/
+					}
 				}
 
 				div.search-area{
@@ -456,7 +493,7 @@ body{
 				margin-right:306px;	
 				/********** ARTICLE ************/
 				div.paging{
-						width: 270px;
+						width: 260px;
 						margin: auto;
 						padding-bottom: 20px;
 					}
@@ -471,7 +508,6 @@ body{
 					}
 				}
 				div.title{
-					/*width: 623px;*/
 					margin-top: 10px;
 					padding: 0 10px;
 					/*zoom: 1;*/
@@ -508,6 +544,28 @@ body{
 					border-top: 2px solid #E8E8E8;
 					border-bottom: 1px solid #E4E3E3;
 
+					/*****************register***************/
+					.tbl-hesab{
+						width: 580px;
+						height: 75px;
+						margin:auto;
+						tr{
+							color: #c3c3c3;
+							text-align: middle;
+							background-color:#292929;
+							td{
+								width: 161px;
+								height: 23px;
+								display: table-cell;
+								vertical-align: middle;
+								text-align: center;
+							}
+						}
+						.content-td{
+							background-color: rgb(245, 245, 250);
+							color: rgb(41, 41, 41);
+						}
+					}
 					div.post-title{
 						position: relative;
 						padding-bottom: 35px;
@@ -606,8 +664,14 @@ body{
 						background: white;
 						border: 3px solid #AEAEAE;
 					}
-					
 					/******just contact******/
+					div.bg-contact{
+						width: 128px;
+						height: 128px;
+						float: left;
+						margin-top: -70px;
+						background: url('./images/contact.gif') no-repeat;
+					}
 					div.divseprate{
 						position: relative;
 						/*overflow: hidden;*/
@@ -617,10 +681,32 @@ body{
 						background: url('./images/px.gif') top repeat-x;
 						border-top: 1px solid #E4E3E3;
 					}
+					.bg-sale{
+						width: 170px;
+						height: 160px;
+						margin-top: -40px;
+						margin-left: -29px;
+						float: left;
+						background: url('./images/sale.png') no-repeat;
+					}
+					section.form-content,section.form-register{
+						background-color: #F3F3F3;
+					    border-radius: 5px 5px 5px 5px;
+					    box-shadow: 1px 1px 15px #AAAAAA;
+					    margin: 10px auto 20px 90px;
+					    position: relative;
+					    text-align: right;
+					    width: 430px;
+					    form{
+					    	padding:0 20px 20px 0;
+					    }
+					}
+					section.form-register{
+						margin: 20px  0;
+					}
 				}
 				div.post-content , div.personel-box{
 					overflow: hidden;
-					/*zoom: 1;*/
 					padding-bottom: 2em;
 
 					div.img-post{
@@ -651,14 +737,12 @@ body{
 			}
 			section.comment-article{
 				background-color: #f3f3f3;
-						border-radius: 5px 5px 5px 5px;
-					    box-shadow: 1px 1px 15px #AAAAAA;
-					    display: none;
-					    margin:10px auto;
-					    opacity: 0;
-					    position: relative;
-					    text-align: right ;
-					    width: 560px;
+				border-radius: 5px 5px 5px 5px;
+			    box-shadow: 1px 1px 15px #AAAAAA;
+			    margin:10px auto;
+			    position: relative;
+			    text-align: right ;
+			    width: 430px;
 
 					    .close-nazar{
 					    	background: url("./images/controls.png") repeat scroll 162px 130px transparent;
@@ -676,7 +760,8 @@ body{
 					    }
 					    #content-comment{
 					    	padding: 20px;
-    						width: 540px;
+   						
+							
 					    }
 			
 			}

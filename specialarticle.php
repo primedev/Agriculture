@@ -1,7 +1,6 @@
 <?php 
 	include "header.php";
 ?>
-	
 	<section class="logo">
 		<a href="./index.php" title="Agriculture" class="logo">
 				<h1>mehdi jafary</h1>
@@ -31,15 +30,23 @@
 			</a>
 			<div class="divseprate"></div>
 		</div>
-		<section class="comment-article">
+		<section class="comment-article" id="comment-article" >
 		<div class="close-nazar"></div>
 		<div id="content-comment">
-		<p class="nocomments">دیدگاه&zwnj;ها غیرفعال هستند. دیدگاه&zwnj;ها غیرفعال هستند. دیدگاه&zwnj;ها غیرفعال هستند. دیدگاه&zwnj;ها غیرفعال هستند. دیدگاه&zwnj;ها غیرفعال هستند.دیدگاه&zwnj;ها غیرفعال هستند.دیدگاه&zwnj;ها غیرفعال هستند.دیدگاه&zwnj;ها غیرفعال هستند.دیدگاه&zwnj;ها غیرفعال هستند.</p>
+		<div class="nocomments">
+			<form name="frm-idea" id="frm-idea">
+				<label>نام</label>
+				<input type="text" name="firstname" id="firstname" />
+				<label>ایمیل</label>
+				<input type="text" name="lastname" id="lastname" />
+				<label>پیام</label>
+				<textarea rows="5"></textarea><br />
+				<input type="submit" name="submit" value="ارسال نظر" />
+			</form> 	
+		</div>
 	</div>
 </section>
-	</section>
-
-	
+</section>
 </section>
 <?php
 	include "footer.php";

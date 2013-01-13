@@ -1,6 +1,7 @@
 <div class="post">
 	<div class="post-title">
-	 	<h2 style="margin-right:50px; border:none;"><a href="./specialarticle.php" target="_blank">نام کامل مقاله</a></h2>
+	 	<h2 style="margin-right:50px; border:none;">
+	 		<a href="./" target="_blank">نام کامل اسلاید</a></h2>
 	 	<div class="author">
 	 		نویسنده :
 	 		<span>مدیر</span>
@@ -23,13 +24,9 @@
 			</a>
 		</div>
 		<p>در این سایتدر این سایتدر این سایتدر این سایتدر این سایتدر این سایتدر این سایتدر این سایتدر این سایتدر این سایتدر این سایت</p>
-		<a href="./specialarticle.php" class="more" target="_blank">
+		<a href="./register.php" class="more" target="_blank">
 			<b></b>
-			ادامه مطلب 
-		</a>
-		<a href="#" class="more" target="_blank">
-			<b></b>
-			دانلود مقاله 
+			خرید اسلاید 
 		</a>
 	</div>
 </div>
