@@ -6,7 +6,7 @@
 	<link href="1styles.css" rel="stylesheet" type="text/css" />
 	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 	<link href="style.less" rel="stylesheet/less" type="text/css" />
-	
+	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<script type="text/javascript">
 		document.write('<script type="text/javascript" src=scripts/' + ('__proto__' in {} ? 'zepto' : 'jquery') + '.js><\/script>');
 	</script>
@@ -22,6 +22,13 @@
 		<script type="text/javascript" src="scripts/html5.js"></script>
 	<![endif]-->
 	<script type="text/javascript" src="scripts/fadeloop.js"></script>
+	<script language="javascript" type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+
+<script language="javascript" type="text/javascript" src="scripts/jquery.cookie.js"></script>
+
+<script language="javascript" type="text/javascript" src="scripts/jquery.hoverIntent"></script>
+
+<script type="text/javascript" src="scripts/jquery.dcjqaccordion.2.7.min.js"></script>
 	<script type="text/javascript">
 		window.onload = function(){
 			document.getElementById('loading').style.display='none';
