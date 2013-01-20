@@ -336,6 +336,8 @@ body{
 
 	section.slide-zoom{
 		height:300px;
+		margin-bottom: 10px;
+		position: relative;
 	}
 	section.container{
 
@@ -604,4 +606,16 @@ body{
 			}
 		}
 	}
+	section.slide-zoom div{
+	position :absolute;
+	top      :0px;
+	left     :0;
+	right    :0;
+	bottom   :0;
+	z-index  :-2;
+	border: 1px solid #d8d8d8;
+	border-radius: 10px;
+	font-size: 35px;
+	color:red;
+}
 }

@@ -19,8 +19,9 @@
 	<script type="text/javascript" src="scripts/move-menu.js">
 	</script>
 	<!--[if IE]>
-		<script type="text/javascript" src="/scripts/html5.js"></script>
+		<script type="text/javascript" src="scripts/html5.js"></script>
 	<![endif]-->
+	<script type="text/javascript" src="scripts/fadeloop.js"></script>
 	<script type="text/javascript">
 		window.onload = function(){
 			document.getElementById('loading').style.display='none';
