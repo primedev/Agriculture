@@ -2,7 +2,7 @@
 	<ul class="lavaLamp">
 		<li><a href="./index.php">صفحه اصلی</a></li>
 		<li><a href="./about.php">درباره ما</a></li>
-		<li><a href="./#">مقالات</a>
+		<li><a href="./article.php">مقالات</a>
 			<ul class="submenu-article">
 				<li><a href="./about.php" title="">مقاله 1</a></li>
 				<li><a href="./about.php" title="">مقاله 2</a></li>

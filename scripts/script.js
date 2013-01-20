@@ -1,7 +1,8 @@
 $(function(){
 	var $MarketingImg = $('div.img-marketing a.gall img.b');
-
+	
 	$MarketingImg.hover(function(){
+		alert(12);
 		$(this).animate({
 			opacity : 0.5
 		},700);

@@ -2,12 +2,10 @@
 	include "header.php";
 	include "topheader.php";
 ?>
-<section class="content cover">
-	<div class="bg-top"></div>
 <?php
 	include "sidebarright.php";
 ?>
-	<section class="sideleft">
+	<section class="content-marketing">
 		<div class="ajaxcontent">
 		<div class="marketing cover">
 			<div class="top-img"></div>
@@ -45,7 +43,6 @@
 		</div>
 		</div>
 	</section>
-</section>
 <?php
 	include "footer.php";
 ?>
