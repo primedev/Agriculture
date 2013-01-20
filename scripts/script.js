@@ -10,19 +10,7 @@ $(function(){
 	 		opacity : 0
 	 	},500);
 	});
-
-		//  AJAX
-		// var $lia = $('nav.main-menu a');
-		// $res = "article.php";
-		// $lia.click(function(){
-
-		// 	$.ajax({
-		// 		url : $res,
-		// 		success : function(data){
-		// 			$(".ajaxcontent").html(data);
-		// 		}
-		// 	});
-		// });
+	if(!(jQuery.browser.msie && jQuery.browser.version == 7.0)){
 	var loadpage = function(url){
 		url = url.length > 2 ? url.substr(1) : 'index.php';
 
@@ -61,10 +49,7 @@ $(function(){
 		},700,null,function(){
 			$(this).css({display:'none'});
 		});
-		// $('a.more').click(function(){
-		// 	var url = $(this).attr('title');
-		// 	window.location.href = pageUrl + '#' + url;	
- 	// 	});
 	}
 	//end ajax
+}
 });
