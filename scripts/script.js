@@ -1,16 +1,16 @@
 $(function(){
-	var $MarketingImg = $('div.img-marketing a.gall img.b');
+	// var $MarketingImg = $('div.img-marketing a.gall img.b');
 	
-	$MarketingImg.hover(function(){
-		alert(12);
-		$(this).animate({
-			opacity : 0.5
-		},700);
-	},function(){
-		$(this).animate({
-	 		opacity : 0
-	 	},500);
-	});
+	// $MarketingImg.hover(function(){
+	// 	alert(12);
+	// 	$(this).animate({
+	// 		opacity : 0.5
+	// 	},700);
+	// },function(){
+	// 	$(this).animate({
+	//  		opacity : 0
+	//  	},500);
+	// });
 	if(!(jQuery.browser.msie && jQuery.browser.version == 7.0)){
 	var loadpage = function(url){
 		url = url.length > 2 ? url.substr(1) : 'index.php';
