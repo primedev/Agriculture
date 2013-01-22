@@ -52,6 +52,7 @@ $(function(){
 		});
 	}
 	//end ajax
+	}
 	// right menu
 	$('#melements-acc-vertical').dcAccordion({
 		eventType: 'click',
@@ -65,5 +66,5 @@ $(function(){
 		classExpand	 : 'dcjq-current-parent'
 	});
 	// right menu
-}
+
 });

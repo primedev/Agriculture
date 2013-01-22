@@ -27,5 +27,9 @@
 			<b></b>
 			ادامه مطلب 
 		</a>
+		<a href="#" class="more" target="_blank">
+			<b></b>
+			دانلود مقاله 
+		</a>
 	</div>
 </div>

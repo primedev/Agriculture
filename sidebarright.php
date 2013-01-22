@@ -12,7 +12,7 @@
 			<li><a href="#">همايش منطقه </a></li>
 			<li><a href="#">همايش منطقه </a></li>
 			<li><a href="#">همايش منطقه </a></li>
-			<li><a href="#">همايش منطقه </a>
+			<li><a href="#">همايش منطقه<span class="expand-icon"></span> </a>
 			<ul>
 				<li><a href="#">همايش منطقه </a></li>
 				<li><a href="#">همايش منطقه </a></li>
